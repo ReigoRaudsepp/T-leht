@@ -1,0 +1,7 @@
+numbrid = [0]
+total = 0
+
+for num in numbrid:
+    total += num
+    
+print("Arvujärjendi elementide summa on: ", total)

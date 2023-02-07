@@ -1,0 +1,2 @@
+linnad = ["Põlva, Türi, Tallinn, Tartu, Viljandi, Pärnu, Paide"]
+print(list(linnad))

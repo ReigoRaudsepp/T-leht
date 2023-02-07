@@ -1,0 +1,15 @@
+def paaris_paaritu_count(numbrid):
+    paaris_count = 0
+    paaritu_count = 0
+    for num in numbrid:
+        if num % 2 == 0:
+            paaris_count += 1
+        else:
+            paaritu_count += 1
+    return (paaris_count, paaritu_count)
+
+
+numbrid = [1, 2, 3, 4, 5, 6]
+paaris, paaritu = paaris_paaritu_count(numbrid)
+print("Paarisarve on: ", paaris)
+print("Paarituid on: ", paaritu)

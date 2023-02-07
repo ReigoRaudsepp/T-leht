@@ -1,0 +1,11 @@
+import datetime
+
+while True:
+    try:
+        sisestus = input("Sisesta kuupäev kujul 'dd.mm.yyyy': ")
+        date = datetime.datetime.strptime(sisestus, "%d.%m.%Y").date()
+        kuu = date.strftime("%B")
+        print(f"{date.day}. {kuu} {date.year}")
+        break
+    except ValueError:
+        print("Vigane kuupäeva formaat. Palun sisesta kuupäev kujul 'dd.mm.yyyy'.")

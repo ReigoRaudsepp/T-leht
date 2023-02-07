@@ -1,0 +1,5 @@
+linnad = ["Põlva", "Türi", "Tallinn", "Tartu", "Viljandi", "Pärnu", "Paide"]
+linnad.sort()
+
+for linn in linnad:
+    print(linn)
